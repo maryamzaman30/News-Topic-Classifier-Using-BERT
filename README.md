@@ -11,7 +11,8 @@ This project is a part of my **AI/ML Engineering Internship** at **DevelopersHub
 
 A machine learning project that classifies news headlines into four categories: World, Sports, Business, and Science/Technology using a fine-tuned BERT model.
 
-- Video Demo of app - https://youtu.be/-JlrQ4aXTMg
+- Video Demo of app - https://youtu.be/zsoRqG3eiSw
+> **Note:** In the demo, I used the dataset from [DataCamp](https://www.datacamp.com/datalab/datasets/dataset-r-news-articles). Before using it in the app, I replaced the `title` column with `text`.
 
 - Link to App Online - click the link in the About section on the left
 
