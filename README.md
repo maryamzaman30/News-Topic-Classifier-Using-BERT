@@ -14,8 +14,6 @@ A machine learning project that classifies news headlines into four categories: 
 - Video Demo of app - https://youtu.be/zsoRqG3eiSw
 > **Note:** In the demo, I used the dataset from [DataCamp](https://www.datacamp.com/datalab/datasets/dataset-r-news-articles). Before using it in the app, I replaced the `title` column with `text`.
 
-- Link to App Online - click the link in the About section on the left
-
 ## Objective
 
 The primary goal of this project is to develop an accurate and efficient news topic classification system that can automatically categorize news headlines into predefined topics. This system can be valuable for:
