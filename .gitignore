@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environment
+news-env/
+ENV/
+.venv
+env/
+venv/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.news-env
+
+# Model files
+fine_tuned_bert_agnews/
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+results/checkpoint-*/
+*.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotting-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

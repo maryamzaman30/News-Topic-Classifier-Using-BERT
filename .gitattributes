@@ -1,0 +1,11 @@
+# Track model files with Git LFS
+fine_tuned_bert_agnews/*.bin filter=lfs diff=lfs merge=lfs -text
+fine_tuned_bert_agnews/*.safetensors filter=lfs diff=lfs merge=lfs -text
+fine_tuned_bert_agnews/*.pt filter=lfs diff=lfs merge=lfs -text
+results/**/*.bin filter=lfs diff=lfs merge=lfs -text
+results/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+results/**/*.pt filter=lfs diff=lfs merge=lfs -text
+# Ensure these files are treated as binary
+*.bin binary
+*.safetensors binary
+*.pt binary
